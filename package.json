@@ -1,0 +1,32 @@
+{
+    "name": "storyapp",
+    "version": "1.0.0",
+    "description": "Traversy media story app",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node app",
+        "dev": "cross-env NODE_ENV=development nodemon app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ElMarchk0/StoryBookTM.git"
+    },
+    "keywords": [
+        "Story",
+        "Time!"
+    ],
+    "author": "Me",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ElMarchk0/StoryBookTM/issues"
+    },
+    "homepage": "https://github.com/ElMarchk0/StoryBookTM#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "passport-google-oauth20": "^2.0.0"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.2",
+        "nodemon": "^2.0.6"
+    }
+}

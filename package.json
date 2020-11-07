@@ -4,8 +4,8 @@
     "description": "Traversy media story app",
     "main": "index.js",
     "scripts": {
-        "start": "cross-env NODE_ENV=production node app",
-        "dev": "cross-env NODE_ENV=development nodemon app"
+        "start": "cross-env NODE_ENV=production node index.js",
+        "dev": "cross-env NODE_ENV=development nodemon index.js"
     },
     "repository": {
         "type": "git",
@@ -22,7 +22,10 @@
     },
     "homepage": "https://github.com/ElMarchk0/StoryBookTM#readme",
     "dependencies": {
+        "dotenv": "^8.2.0",
         "express": "^4.17.1",
+        "mongoose": "^5.10.13",
+        "morgan": "^1.10.0",
         "passport-google-oauth20": "^2.0.0"
     },
     "devDependencies": {

@@ -26,7 +26,8 @@
         "express": "^4.17.1",
         "mongoose": "^5.10.13",
         "morgan": "^1.10.0",
-        "passport-google-oauth20": "^2.0.0"
+        "passport-google-oauth20": "^2.0.0",
+        "start": "^5.1.0"
     },
     "devDependencies": {
         "cross-env": "^7.0.2",
